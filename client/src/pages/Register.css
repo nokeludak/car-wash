@@ -1,0 +1,61 @@
+.register-container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5), 
+        rgba(255, 255, 255, 0.5)
+        ),
+        url("https://wallpaperaccess.com/full/1569861.jpg") center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    }
+    
+    .register-wrapper{
+        border-radius: 20px;
+        opacity: 0.6;
+        width: 40%;
+    padding: 20px;
+    background-color: white;
+    }
+    @media screen and (max-width: 380px) {
+        .register-wrapper {
+        width: 75%;
+        
+        }
+      }
+    
+    .register-h1{
+    font-size: 24px;
+    font-weight: 400;
+    }
+    
+    .form-reg{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .register-input{
+    flex: 1;
+    min-width: 40%;
+    margin: 20px 10px 0px 0px;
+    padding: 10px;
+    }
+    
+    .register-span{
+    font-size: 12px;
+    margin: 20px 0px;
+    
+    }
+    
+    .register-button{
+    width: 40%;;
+    border: none;
+    padding: 15px 20px;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 20px 8px 20px 8px;
+    font-weight: 900;
+    }
