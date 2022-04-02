@@ -1,0 +1,45 @@
+
+.wash-container2{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+
+.filter{
+margin: 20px;
+}
+@media screen and (max-width: 380px) {
+    .filter {
+    width: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    
+    }
+  }
+
+.h1-dresses{
+margin: 20px;
+}
+
+.filtertext{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+@media screen and (max-width: 380px) {
+    .filtertext {
+    margin-right: 0px;
+    
+    }
+  }
+
+.select{
+    padding: 10px;
+    margin-right: 20px;
+}
+@media screen and (max-width: 380px) {
+    .select {
+    margin: 10px 0px;
+    
+    }
+  }
