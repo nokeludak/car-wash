@@ -1,6 +1,7 @@
 .navbar {
     height: 60px;
-    background-color: aliceblue;
+    background-color:rgb(206, 245, 232);
+   
 }
 @media screen and (max-width: 380px) {
     .navbar {
@@ -58,3 +59,15 @@
     
     }
   }
+
+  .create-button{
+    width: 20%;
+    border: none;
+    padding: 15px 20px;
+    background-color:aqua;
+    color: rgb(4, 3, 3);
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: 900;
+    border-radius: 20px 8px 20px 8px;
+}

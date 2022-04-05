@@ -1,7 +1,9 @@
 .footer-container{
+  background-color: rgb(206, 245, 232);
     display: flex;
    position: absolute;
    bottom: 0;
+   height: 35%;
    
 }
 @media screen and (max-width: 380px) {
