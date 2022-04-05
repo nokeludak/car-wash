@@ -8,6 +8,8 @@ const WashSchema = new mongoose.Schema(
         price: {type: Number, required: true},
         discount: {type: Boolean, default: false}
         
+
+        
         
 
     },

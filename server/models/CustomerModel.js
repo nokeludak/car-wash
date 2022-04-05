@@ -8,6 +8,7 @@ const CustomerSchema = new mongoose.Schema(
         lastName: {type: String, required: true},
         car: {type: String, required: true},
         
+        
 
     },
     { timestamps: true }
