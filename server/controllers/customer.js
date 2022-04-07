@@ -8,11 +8,13 @@ const create = async (req, res, next) => {
     username: req.body.username,
     name: req.body.name,
     lastName: req.body.lastName,
-    car: req.body.car,
+    washCount: req.body.washCount,
+    count: req.body.count
   });
   try {
     const savedUser = await newUser.save();
     res.status(200).json(savedUser);
+    console.log(savedUser)
   } catch (error) {
     res.status(500).json(error);
   }
@@ -34,5 +36,7 @@ const getAllCustomers = async (req, res, next) => {
     res.status(500).json(error);
   }
 };
+
+
 
 module.exports = { create, getCustomer, getAllCustomers };

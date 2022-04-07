@@ -6,7 +6,7 @@ const CustomerSchema = new mongoose.Schema(
         username: {type: String, required: true, unique:true},
         name: {type: String, required: true},
         lastName: {type: String, required: true},
-        car: {type: String, required: true},
+        washCount: {type: Number, default : 0}
         
         
 

@@ -13,6 +13,7 @@ const Navbar = () => {
       <div className="right">
         <button className="create-button" onClick={()=> {setOpenModal(true)}}>Create Customer</button>
         {openModal && <Register />}
+        
       </div>
     </div>
   );

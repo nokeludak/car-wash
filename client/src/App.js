@@ -6,7 +6,7 @@ import {
   Route
 } from "react-router-dom";
 import Wash from './pages/Wash';
-import Register from "./pages/Register"
+
 
 
 function App() {
@@ -17,9 +17,7 @@ function App() {
           <Route exact path="/">
             <Wash />
           </Route>
-          <Route path="/register">
-            <Register />
-          </Route>
+          
         </Switch>
       </Router>
     </div>
