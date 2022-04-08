@@ -1,4 +1,4 @@
-const { create,  getCustomer,  getAllCustomers } = require("../controllers/customer")
+const { create,  getCustomer,  getAllCustomers, washController } = require("../controllers/customer")
 
 const router = require("express").Router()
 
@@ -7,7 +7,7 @@ const router = require("express").Router()
 router.post("/create", create)
 router.get("/:id" , getCustomer)
 router.get("/", getAllCustomers)
-
+router.post("/wash/:id", washController)
 
 
 

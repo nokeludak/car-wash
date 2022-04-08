@@ -10,8 +10,9 @@ const Register = () => {
     name: "",
     lastName: "",
     washCount: 0,
+    
   });
-  const { username, name, lastName, washCount } = formData;
+  const { username, name, lastName, washCount} = formData;
 
   const onChange = (e) => {
     setFormData((prevState) => ({
@@ -68,12 +69,12 @@ const Register = () => {
             required
           />
           <input
-            id="car"
-            name="car"
+            id="count"
+            name="count"
             value={washCount}
             onChange={onChange}
             className="register-input"
-            placeholder="Car"
+            placeholder="count"
           />
           <span className="register-span">
             By creating an customer, I consent to the processing of my personal
