@@ -7,7 +7,9 @@ const router = require("express").Router()
 router.post("/create", create)
 router.get("/:id" , getCustomer)
 router.get("/", getAllCustomers)
-router.post("/wash/:id", washController)
+router.post("/wash", washController)
+
+
 
 
 

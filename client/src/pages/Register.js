@@ -85,6 +85,7 @@ const Register = () => {
           </button>
         </form>
       </div>
+     
     </div>
   );
 };
